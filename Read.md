@@ -1,5 +1,5 @@
 #100 Days CSS Challenge
 
-![Day 1](./1.png)
-![Day 3](./3.png)
-![Day 4](./4.png)
+![Day 1](./images/1.png)
+![Day 3](./images/3.png)
+![Day 4](./images/4.png)
