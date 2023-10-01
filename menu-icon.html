@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .frame {
+        position: absolute;
+        /* inset can be use here to specify the top , right , bottom and left */
+        inset: calc(50% -200px);
+        border-radius: 2;
+        background: #3faf82;
+        display: grid;
+        place-content: center;
+        box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <label for="menu" class="labe">
+        <input type="checkbox" name="menu" class="checkbox" id="menu" />
+        <div class="menu">
+          <span class="l1"></span>
+          <span class="l2"></span>
+          <span class="l3"></span>
+        </div>
+      </label>
+    </div>
+  </body>
+</html>
